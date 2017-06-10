@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5AAEDD</color>
+    <color name="colorPrimaryDark">#5AAEDD</color>
+    <color name="HintColor">#24adfa</color>
+    <color name="colorAccent">#09abf4</color>
+    <color name="login_text_color">#fcf5f5</color>
+    <color name="InputTextColor">#333</color>
+</resources>

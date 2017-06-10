@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="login_text_size">23sp</dimen>
+    <dimen name="login_text_size600">28sp</dimen>
+    <dimen name="login_text_size720">33sp</dimen>
+    <dimen name="tablet600dpImag">450dp</dimen>
+    <dimen name="tablet720dpImag">450dp</dimen>
+    <dimen name="tablet600dpHeight">140dp</dimen>
+    <dimen name="tablet720dpHeight">240dp</dimen>
+    <dimen name="nav_header_welcome_icon">100dp</dimen>
+    <dimen name="nav_header_welcome_icon600">120dp</dimen>
+    <dimen name="nav_header_welcome_icon720">140dp</dimen>
+    <dimen name="nav_header_welcome_text">14sp</dimen>
+    <dimen name="nav_header_welcome_text600">100dp</dimen>
+    <dimen name="nav_header_welcome_text720">100dp</dimen>
+</resources>

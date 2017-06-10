@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary">
+    <TableRow
+        >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="start"
+            android:weightSum="100"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+
+            <android.support.v7.widget.SearchView
+                android:id="@+id/ITEM_SEARCH_VIEW"
+                android:minWidth="300dp"
+
+                android:padding="6dp"
+                android:queryHint="Search product here.."
+                android:queryBackground="@color/colorPrimaryDark"
+                android:layout_width="fill_parent"
+                app:queryBackground="@drawable/card"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:layout_weight="100"
+                >
+
+            </android.support.v7.widget.SearchView>
+
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

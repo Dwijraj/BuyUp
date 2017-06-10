@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/LOGIN_ROOT_VIEW"
+    android:layout_height="match_parent"
+    tools:context="com.softwaresolutions.buyup.UI.LoginActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="10"
+            android:textSize="@dimen/login_text_size"
+            android:text="Your Details will not be shared"
+            android:textColor="@color/login_text_color"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="0dp" />
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="60"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+
+           <ImageView
+               android:focusable="true"
+               android:layout_width="180dp"
+               android:background="@drawable/welcome_notification"
+               android:layout_height="180dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="4"/>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="match_parent"
+            android:background="#fff"
+            app:mtf_animationDuration="250"
+            app:mtf_labelColor="@color/HintColor"
+            android:layout_height="wrap_content"
+            app:mtf_image="@mipmap/ic_smartphone_white_24dp"
+            >
+
+            <EditText
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:textColor="@color/InputTextColor"
+                android:id="@+id/LOGIN_MOBILE_NUMER"
+                android:textColorHint="@color/login_text_color"
+                android:textSize="@dimen/login_text_size" />
+
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"/>
+
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="match_parent"
+            app:mtf_labelColor="@color/HintColor"
+            android:background="#ffff"
+            app:mtf_animationDuration="250"
+            android:layout_height="wrap_content"
+            app:mtf_image="@mipmap/ic_email_white_24dp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:background="@color/colorPrimary"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/InputTextColor"
+                android:id="@+id/LOGIN_EMAIL_ID"
+                android:textColorHint="@color/login_text_color"
+                android:textSize="@dimen/login_text_size" />
+
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:padding="6dp"
+                android:text="CONFIRM CREDENTIALS"
+                android:textColor="@color/login_text_color"
+                android:id="@+id/LOGIN_GET_STARTED"
+                android:background="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

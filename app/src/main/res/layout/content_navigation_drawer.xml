@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.softwaresolutions.buyup.UI.HomePage"
+    tools:showIn="@layout/app_bar_navigation_drawer">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_height="wrap_content">
+
+         <HorizontalScrollView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:id="@+id/Home_Fashion_IMG"
+                   android:background="@drawable/tshirt_v"
+                   android:layout_height="100dp" />
+               <ImageView
+                   android:layout_width="100dp"
+                   android:id="@+id/Home_Television_IMG"
+                   android:background="@drawable/television"
+                   android:layout_height="100dp" />
+               <ImageView
+                   android:layout_width="100dp"
+                   android:id="@+id/Home_Electronics_IMG"
+                   android:background="@drawable/ic_menu_camera"
+                   android:layout_height="100dp" />
+               <ImageView
+                   android:id="@+id/Home_Home_IMG"
+                   android:layout_width="100dp"
+                   android:background="@drawable/home_variant"
+                   android:layout_height="100dp" />
+               <ImageView
+                   android:id="@+id/Home_Offer_IMG"
+                   android:layout_width="100dp"
+                   android:background="@drawable/ticket_percent"
+                   android:layout_height="100dp" />
+
+            </LinearLayout>
+
+
+
+         </HorizontalScrollView>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:text="Latest Hot Offers"
+             android:textSize="23sp"
+             android:textColor="#fff"
+             android:layout_height="wrap_content" />
+
+         <android.support.v7.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:id="@+id/Recycler_view_Offers_Home_1"
+             android:layout_height="wrap_content">
+
+         </android.support.v7.widget.RecyclerView>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:text="Most bought products"
+             android:textSize="23sp"
+             android:textColor="#fff"
+             android:layout_height="wrap_content" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/Recycler_View_Most_bought_2"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+         </LinearLayout>
+
+
+
+      </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+
+</LinearLayout>

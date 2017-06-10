@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context="com.softwaresolutions.buyup.UI.Splashscreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:scaleType="fitXY"
+            android:alpha="0"
+            android:background="@drawable/welcome_notification"
+            android:id="@+id/SPLASH_APP_ICON"
+            android:layout_height="300dp" />
+        <TextView
+            android:gravity="center"
+            android:textSize="@dimen/login_text_size"
+            android:textColor="@color/login_text_color"
+            android:layout_width="match_parent"
+            android:text="WELCOME TO BUYUP"
+            android:alpha="0"
+            android:id="@+id/WELCOME_MESSAGE"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

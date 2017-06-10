@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Categories">
+
+        <menu>
+
+            <item
+                android:id="@+id/Electronics"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Electronics" />
+            <item
+                android:id="@+id/Fashion"
+                android:icon="@drawable/tshirt_v"
+                android:title="Fashion" />
+            <item
+                android:id="@+id/Television_Appliances"
+                android:icon="@drawable/television"
+                android:title="Television and Appliances" />
+            <item
+                android:id="@+id/Home_Accessories"
+                android:icon="@drawable/home_variant"
+                android:title="Home and Furniture" />
+
+        </menu>
+
+    </item>
+    <item android:title="Offers">
+
+        <menu>
+
+            <item
+                android:id="@+id/Offer_Zone"
+                android:title="Offer Zone"
+                android:icon="@drawable/ticket_percent"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/App_Share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/account_card_details"
+        android:title="My Profile">
+        <menu>
+
+            <item
+                android:icon="@drawable/account_settings_variant"
+                android:id="@+id/My_Account"
+                android:title="My Account">
+
+            </item>
+
+            <item
+                android:icon="@drawable/cart"
+                android:id="@+id/MyCart"
+                android:title="My Cart">
+
+            </item>
+
+            <item
+                android:icon="@drawable/folder_upload"
+                android:title="My Orders"
+                android:id="@+id/My_Orders"/>
+
+        </menu>
+    </item>
+
+</menu>

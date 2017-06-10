@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    android:id="@+id/CONFIRMATION_ROOT"
+    android:layout_height="match_parent"
+    tools:context="com.softwaresolutions.buyup.UI.Confirmation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/login_text_size"
+            android:textColor="@color/colorPrimary"
+            android:text="CONFIRM OTP RECEIVED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+
+
+        <EditText
+            android:inputType="number"
+            android:maxLength="1"
+            android:gravity="center"
+            android:textSize="@dimen/login_text_size"
+            android:id="@+id/FIRST_DIGIT"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="100dp"/>
+
+        <EditText
+
+
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/SECOND_DIGIT"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:maxLength="1"
+            android:textSize="@dimen/login_text_size" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="100dp"/>
+
+        <EditText
+            android:inputType="number"
+            android:gravity="center"
+            android:maxLength="1"
+            android:textSize="@dimen/login_text_size"
+            android:id="@+id/THIRD_DIGIT"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
